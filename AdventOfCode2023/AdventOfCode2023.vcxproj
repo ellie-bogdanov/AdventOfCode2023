@@ -127,14 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cubeConundrum.cpp" />
+    <ClCompile Include="gearRatios.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="trebuchet.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="inputs\cubeConundrum.txt" />
+    <Text Include="inputs\gearRatios.txt" />
+    <Text Include="inputs\gearRatiosSample.txt" />
     <Text Include="inputs\sampleTrebuchet.txt" />
     <Text Include="inputs\trebuchet.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cubeConundrum.h" />
+    <ClInclude Include="gearRatios.h" />
     <ClInclude Include="trebuchet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,6 +1,6 @@
 #include "trebuchet.h"
 
-void ParseInput(std::vector<std::string>& input)
+void trebuchet::ParseInput(std::vector<std::string>& input)
 {
 	std::fstream trebuchetFile;
 	trebuchetFile.open("C:\\Users\\guybo\\source\\repos\\AdventOfCode2023\\AdventOfCode2023\\inputs\\trebuchet.txt", std::ios::in);
@@ -13,7 +13,7 @@ void ParseInput(std::vector<std::string>& input)
 		}
 	}
 }
-std::string FirstLastDigitOfStr(std::string& calibrationValue)
+std::string trebuchet::FirstLastDigitOfStr(std::string& calibrationValue)
 {
 	std::string allDigitsInStr;
 
@@ -123,27 +123,27 @@ std::string FirstLastDigitOfStr(std::string& calibrationValue)
 	return firstLastDigits;
 }
 
-int CalibrationSum()
+int trebuchet::CalibrationSum()
 {
 	std::vector<std::string> input;
-	ParseInput(input);
+	trebuchet::ParseInput(input);
 	int sum = 0;
 	for (std::string val : input)
 	{
 		std::string firstLastDigit = FirstLastDigitOfStr(val);
 		//std::cout << val << '\n';
-		sum += stoi(firstLastDigit);
+		sum += StrToInteger(firstLastDigit);
 	}
 	return sum;
 }
 
-int StrToInteger(std::string& str) // Not Working
+int trebuchet::StrToInteger(std::string& str) // Not Working
 {
 	int val = 0;
 	for (int i = 0; i < str.length(); i++)
 	{
 		int digit = str.at(i) - '0';
-		val += pow(digit, str.length() - i);
+		val += digit * pow(10, str.length() - i - 1);
 	}
 	return val;
 }

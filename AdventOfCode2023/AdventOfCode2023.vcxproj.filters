@@ -21,6 +21,12 @@
     <ClCompile Include="trebuchet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cubeConundrum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gearRatios.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="inputs\trebuchet.txt">
@@ -29,9 +35,24 @@
     <Text Include="inputs\sampleTrebuchet.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="inputs\cubeConundrum.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inputs\gearRatios.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inputs\gearRatiosSample.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="trebuchet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cubeConundrum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gearRatios.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
