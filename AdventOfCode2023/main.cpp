@@ -1,5 +1,6 @@
 #include <iostream>
-#include "gearRatios.h"
+#include "scratchcards.hpp"
+
 
 void PopulateVector(std::vector<char>& input, std::string temp)
 {
@@ -11,9 +12,9 @@ void PopulateVector(std::vector<char>& input, std::string temp)
 
 int main()
 {
-	int sum = gearRatios::SumOfProductsOfEngineParts();
+	unsigned long long sum = scratchcards::CalcTotalCards();
 	std::cout << sum;
 
-	
+
 	return 0;
 }

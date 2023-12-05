@@ -130,6 +130,7 @@
     <ClCompile Include="cubeConundrum.cpp" />
     <ClCompile Include="gearRatios.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="scratchcards.cpp" />
     <ClCompile Include="trebuchet.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -137,11 +138,13 @@
     <Text Include="inputs\gearRatios.txt" />
     <Text Include="inputs\gearRatiosSample.txt" />
     <Text Include="inputs\sampleTrebuchet.txt" />
+    <Text Include="inputs\scratchcards.txt" />
     <Text Include="inputs\trebuchet.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cubeConundrum.h" />
     <ClInclude Include="gearRatios.h" />
+    <ClInclude Include="scratchcards.hpp" />
     <ClInclude Include="trebuchet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

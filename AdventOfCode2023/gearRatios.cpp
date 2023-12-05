@@ -13,7 +13,7 @@ void gearRatios::PrintMatrix(std::vector<std::vector<char>>& matrix)
 void gearRatios::ParseInput(std::vector<std::vector<char>>& input)
 {
 	std::fstream gearRatiosFile;
-	gearRatiosFile.open("C:\\Users\\guybo\\source\\repos\\AdventOfCode2023\\AdventOfCode2023\\inputs\\gearRatios.txt", std::ios::in);
+	gearRatiosFile.open("inputs\\gearRatios.txt", std::ios::in);
 
 	if (gearRatiosFile.is_open())
 	{

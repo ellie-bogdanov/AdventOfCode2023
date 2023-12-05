@@ -27,6 +27,9 @@
     <ClCompile Include="gearRatios.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="scratchcards.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="inputs\trebuchet.txt">
@@ -44,6 +47,9 @@
     <Text Include="inputs\gearRatiosSample.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="inputs\scratchcards.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="trebuchet.h">
@@ -53,6 +59,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="gearRatios.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scratchcards.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
