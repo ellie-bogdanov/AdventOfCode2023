@@ -127,24 +127,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="boatRaces.cpp" />
     <ClCompile Include="cubeConundrum.cpp" />
     <ClCompile Include="gearRatios.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="scratchcards.cpp" />
+    <ClCompile Include="seedToLocation.cpp" />
     <ClCompile Include="trebuchet.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="inputs\boatRaces.txt" />
     <Text Include="inputs\cubeConundrum.txt" />
     <Text Include="inputs\gearRatios.txt" />
     <Text Include="inputs\gearRatiosSample.txt" />
     <Text Include="inputs\sampleTrebuchet.txt" />
     <Text Include="inputs\scratchcards.txt" />
+    <Text Include="inputs\seedToLocation.txt" />
+    <Text Include="inputs\seedToLocationSample.txt" />
+    <Text Include="inputs\seedToLocationSample2.txt" />
     <Text Include="inputs\trebuchet.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="boatRaces.hpp" />
     <ClInclude Include="cubeConundrum.h" />
     <ClInclude Include="gearRatios.h" />
     <ClInclude Include="scratchcards.hpp" />
+    <ClInclude Include="seedToLocation.hpp" />
     <ClInclude Include="trebuchet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,6 +1,6 @@
 #include <iostream>
-#include "scratchcards.hpp"
-
+#include "seedToLocation.hpp"
+#include<chrono>
 
 void PopulateVector(std::vector<char>& input, std::string temp)
 {
@@ -12,9 +12,10 @@ void PopulateVector(std::vector<char>& input, std::string temp)
 
 int main()
 {
-	unsigned long long sum = scratchcards::CalcTotalCards();
-	std::cout << sum;
-
-
+	auto start = std::chrono::high_resolution_clock::now();
+	std::cout << seedToLoc::CalcLowestLocationPart2Fixed() << '\n';
+	auto end = std::chrono::high_resolution_clock::now();
+	std::chrono::duration<double> duration = end - start;
+	std::cout << "Execution time: " << duration.count() << " seconds." << std::endl;
 	return 0;
 }

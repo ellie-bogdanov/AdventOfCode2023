@@ -30,6 +30,12 @@
     <ClCompile Include="scratchcards.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="seedToLocation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="boatRaces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="inputs\trebuchet.txt">
@@ -50,6 +56,18 @@
     <Text Include="inputs\scratchcards.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="inputs\seedToLocation.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inputs\seedToLocationSample.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inputs\seedToLocationSample2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inputs\boatRaces.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="trebuchet.h">
@@ -62,6 +80,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="scratchcards.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="seedToLocation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="boatRaces.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
