@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,31 +129,50 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="boatRaces.cpp" />
+    <ClCompile Include="camelCards.cpp" />
+    <ClCompile Include="cosmicExpansion.cpp" />
     <ClCompile Include="cubeConundrum.cpp" />
     <ClCompile Include="gearRatios.cpp" />
+    <ClCompile Include="hauntedWasteland.cpp" />
+    <ClCompile Include="hotSprings.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mirageMaintenance.cpp" />
+    <ClCompile Include="pipeMaze.cpp" />
     <ClCompile Include="scratchcards.cpp" />
     <ClCompile Include="seedToLocation.cpp" />
+    <ClCompile Include="tools.cpp" />
     <ClCompile Include="trebuchet.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="inputs\boatRaces.txt" />
+    <Text Include="inputs\camelCards.txt" />
+    <Text Include="inputs\cosmicExpansion.txt" />
+    <Text Include="inputs\cosmicExpansionSample.txt" />
     <Text Include="inputs\cubeConundrum.txt" />
-    <Text Include="inputs\gearRatios.txt" />
-    <Text Include="inputs\gearRatiosSample.txt" />
-    <Text Include="inputs\sampleTrebuchet.txt" />
+    <Text Include="inputs\hauntedWasteland.txt" />
+    <Text Include="inputs\hauntedWastelandSample.txt" />
+    <Text Include="inputs\hotSprings.txt" />
+    <Text Include="inputs\mirageMaintenance.txt" />
+    <Text Include="inputs\pipeMaze.txt" />
+    <Text Include="inputs\pipeMazeSample.txt" />
     <Text Include="inputs\scratchcards.txt" />
     <Text Include="inputs\seedToLocation.txt" />
     <Text Include="inputs\seedToLocationSample.txt" />
     <Text Include="inputs\seedToLocationSample2.txt" />
-    <Text Include="inputs\trebuchet.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="boatRaces.hpp" />
+    <ClInclude Include="camelCards.hpp" />
+    <ClInclude Include="cosmicExpansion.hpp" />
     <ClInclude Include="cubeConundrum.h" />
     <ClInclude Include="gearRatios.h" />
+    <ClInclude Include="hauntedWasteland.hpp" />
+    <ClInclude Include="hotSprings.hpp" />
+    <ClInclude Include="mirageMaintenance.hpp" />
+    <ClInclude Include="pipeMaze.hpp" />
     <ClInclude Include="scratchcards.hpp" />
     <ClInclude Include="seedToLocation.hpp" />
+    <ClInclude Include="tools.hpp" />
     <ClInclude Include="trebuchet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

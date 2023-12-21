@@ -1,21 +1,19 @@
 #include <iostream>
-#include "seedToLocation.hpp"
-#include<chrono>
+#include "hotSprings.hpp"
 
-void PopulateVector(std::vector<char>& input, std::string temp)
-{
-	for (char c : temp)
-	{
-		input.push_back(c);
-	}
-}
+#include<chrono>
 
 int main()
 {
 	auto start = std::chrono::high_resolution_clock::now();
-	std::cout << seedToLoc::CalcLowestLocationPart2Fixed() << '\n';
+
+	std::vector<std::vector<char>> allCombinations;
+
+	std::cout << springs::CalcAllValidPossibilities() << std::endl;
+
 	auto end = std::chrono::high_resolution_clock::now();
 	std::chrono::duration<double> duration = end - start;
 	std::cout << "Execution time: " << duration.count() << " seconds." << std::endl;
 	return 0;
 }
+

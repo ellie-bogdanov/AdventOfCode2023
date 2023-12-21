@@ -43,7 +43,6 @@ namespace seedToLoc
 		long long startingValue;
 		long long rangeLen;
 		bool isUpdated = false;
-		bool isSplitLeft = false;
 		SeedRange* left;
 		SeedRange* right;
 

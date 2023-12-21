@@ -225,7 +225,7 @@ void seedToLoc::ParseInputPart2Fixed(std::vector<std::vector<seedToLoc::Range>>&
 		std::stringstream sCurrentLine(currentLine);
 		std::string currentSeedNum;
 		int	seedIndex = 1; // starts from 1 not 0 on purpose
-		std::pair< long long,  long long> seedRange;
+		std::pair<long long,  long long> seedRange;
 		while (std::getline(sCurrentLine, currentSeedNum, ' '))
 		{
 			if (seedIndex % 2 != 0)
@@ -258,7 +258,7 @@ void seedToLoc::ParseInputPart2Fixed(std::vector<std::vector<seedToLoc::Range>>&
 			{
 				std::stringstream sCurrentLine(currentLine);
 				std::string currentNum;
-				 long long currentRange[3];
+				long long currentRange[3];
 				int index = 0;
 				while (std::getline(sCurrentLine, currentNum, ' '))
 				{
@@ -285,10 +285,6 @@ seedToLoc::SeedRange* seedToLoc::NewSeedRange(long long startingValue,  long lon
 
 void seedToLoc::SeedRange::SplitSeeds(const Range& range)
 {
-
-
-	
-	
 	long long leftStartVal = startingValue;
 	long long leftRange = range.sourceRangeStart - leftStartVal;
 	long long rightStartVal = range.sourceRangeStart + range.rangeLen;
@@ -316,8 +312,6 @@ void seedToLoc::SeedRange::SplitSeeds(const Range& range)
 		right->SplitSeeds(range);
 
 	UpdateSeedRanges(range);
-
-
 }
 
 void seedToLoc::SeedRange::UpdateSeedRanges(const seedToLoc::Range& range)
@@ -372,7 +366,6 @@ seedToLoc::SeedRange::SeedRange(seedToLoc::SeedRange* seed)
 	seedToLoc::SeedRange* removed = seedToLoc::NewSeedRange(seeds->startingValue, seeds->rangeLen);
 	seedRanges.push_back(removed);
 	 
-	 
 
  }
 
@@ -395,8 +388,6 @@ seedToLoc::SeedRange::SeedRange(seedToLoc::SeedRange* seed)
 			{
 				if (seedRange != nullptr)
 					seedRange->SplitSeeds(range);
-				
-				//seedRange->UpdateSeedRanges(range);
 
 			}
 			

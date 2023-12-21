@@ -36,21 +36,30 @@
     <ClCompile Include="boatRaces.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="camelCards.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hauntedWasteland.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mirageMaintenance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pipeMaze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cosmicExpansion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hotSprings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="inputs\trebuchet.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="inputs\sampleTrebuchet.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
     <Text Include="inputs\cubeConundrum.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="inputs\gearRatios.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="inputs\gearRatiosSample.txt">
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="inputs\scratchcards.txt">
@@ -66,6 +75,33 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="inputs\boatRaces.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inputs\camelCards.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inputs\hauntedWasteland.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inputs\hauntedWastelandSample.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inputs\mirageMaintenance.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inputs\pipeMaze.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inputs\pipeMazeSample.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inputs\cosmicExpansion.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inputs\cosmicExpansionSample.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inputs\hotSprings.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
@@ -86,6 +122,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="boatRaces.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camelCards.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hauntedWasteland.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mirageMaintenance.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pipeMaze.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cosmicExpansion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hotSprings.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
